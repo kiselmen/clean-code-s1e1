@@ -38,7 +38,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.section__wrapper {
+.add-item {
   display: flex;
   padding-top: 20px;
 }
