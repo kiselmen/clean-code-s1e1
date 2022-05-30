@@ -8,8 +8,8 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-const taskInput = document.querySelector(".list-item_new");//Add a new task.
-const addButton = document.querySelectorAll(".list-item__btn")[0];//first button
+const taskInput = document.querySelector(".add-item__input");//Add a new task.
+const addButton = document.querySelector(".add-item__btn");//first button
 const incompleteTaskHolder = document.querySelector(".list_incomplete");//ul of #incompleteTasks
 const completedTasksHolder = document.querySelector(".list_completed");//completed-tasks
 
@@ -47,6 +47,7 @@ const createNewTaskElement = function(taskString){
 
     deleteButton.className = "list-item__btn btn-del";
     deleteButtonImg.src = './assets/img/remove.svg';
+    deleteButtonImg.alt = 'delete';
     deleteButtonImg.className = "btn-del__img";
     deleteButton.appendChild(deleteButtonImg);
 
