@@ -58,7 +58,8 @@
 .list-item > * {
   vertical-align: middle;
 }
-.list-item__input {
+.list-item__input,
+.add-item__input {
   flex-grow: 1;
   outline: none;
   margin: 0;
@@ -86,7 +87,8 @@
   box-sizing: border-box;
   font-size: 18px;
 }
-.list-item__btn {
+.list-item__btn,
+.add-item__btn {
   background: none;
   border: 0px;
   color: #888;
